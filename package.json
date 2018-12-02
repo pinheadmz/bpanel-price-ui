@@ -1,5 +1,5 @@
 {
-  "name": "price-ui",
+  "name": "@bpanel/price-ui",
   "version": "0.0.1",
   "description": "UI for price plugin",
   "main": "dist/index.js",
@@ -13,12 +13,12 @@
   },
   "keywords": [
     "bpanel",
-    "bcoin",
-    ""
+    "bcoin"
   ],
   "author": "Matthew Zipkin",
   "license": "MIT",
   "dependencies": {
+    "@bpanel/price": "0.0.1",
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-runtime": "^6.23.0"
   },
